@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, main, footer{
+    border: 1px solid black;
+}
+/*
+unidades de medida relativas:
+vw = view width(largura)numero = % da tela
+vh = view height(altura)numero = % da tela
+rem = 16px(https://nekocalc.com/px-to-rem-converter) calculadora
+
+*/
+.altura-header{
+    height: 10vh;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.altura-main{
+    height: 100vh;
+    text-align: center;
+    position: absolute;
+    width: 100vw;
+    top: 65px;
+    position: relative;
+}
+
+/* .caixa{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.altura-footer{
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
