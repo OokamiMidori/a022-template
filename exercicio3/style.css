@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    text-align: center;
+}
+/* .botao{
+    text-align: center;
+} */
+.botao:hover{
+    color: white;
+    background-color: red;
+    border: none;
+}
+.botao:active{
+    color: red;
+    background-color: pink;
+}
